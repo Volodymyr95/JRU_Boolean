@@ -10,7 +10,7 @@ public class ThreadCounter extends Thread {
 
     @Override
     public void run() {
-        for (int i = 0; i < 10_000_000_00; i++) {
+        for (int i = 0; i < 10_000_000; i++) {
             counter.increment();
         }
     }
