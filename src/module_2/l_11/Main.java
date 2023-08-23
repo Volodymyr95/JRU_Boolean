@@ -4,10 +4,11 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         MyThread myThread = new MyThread("MyThread");
+        System.out.println(myThread.getName());
 
-        myThread.start();
-        Thread.sleep(3000);
-        myThread.interrupt();
+//        myThread.start();
+//        Thread.sleep(3000);
+//        myThread.interrupt();
 
 
 //        MyRunnable myRunnable = new MyRunnable();

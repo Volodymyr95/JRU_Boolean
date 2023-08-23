@@ -22,14 +22,14 @@ public class Main {
 //        Future<Integer> submit = executorService.submit(callable);
 //        System.out.println(submit.get(2, TimeUnit.SECONDS));
 
-        var scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(3);
-        scheduledThreadPoolExecutor.scheduleAtFixedRate(
-                () -> System.out.println("Runnable"),
-                2,
-                3,
-                TimeUnit.SECONDS);
-
-        scheduledThreadPoolExecutor.shutdown();
+//        var scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(3);
+//        scheduledThreadPoolExecutor.scheduleAtFixedRate(
+//                () -> System.out.println("Runnable"),
+//                2,
+//                3,
+//                TimeUnit.SECONDS);
+//
+//        scheduledThreadPoolExecutor.shutdown();
     }
 
 }
